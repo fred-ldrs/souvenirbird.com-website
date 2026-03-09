@@ -4,11 +4,11 @@ This directory contains images and graphics for the SouvenirBird website.
 
 ## Required Images
 
-### 1. **app-screenshot.png**
-- **Description:** Screenshot of the SouvenirBird app
-- **Recommended size:** 1000x2000px (mobile phone aspect ratio)
-- **Format:** PNG with transparent background or white background
-- **Usage:** Hero section
+### 1. **Screenshot_1772977403.png** ✅ ADDED
+- **Description:** Official SouvenirBird app screenshot
+- **Format:** PNG
+- **Usage:** Hero section - showcases the app interface
+- **Note:** This is the actual app screenshot showing the memory interface
 
 ### 2. **google-play-badge.png** ✅ ADDED
 - **Description:** Official "Get it on Google Play" badge (English version)
@@ -17,23 +17,18 @@ This directory contains images and graphics for the SouvenirBird website.
 - **Usage:** Call-to-action button
 - **Source:** Official Google Play branding guidelines
 
-### 3. **souvenirbird-illustration.png** or **souvenirbird-illustration.svg**
-- **Description:** Illustration of the SouvenirBird character
-- **Recommended size:** 800x600px or scalable SVG
-- **Format:** PNG or SVG (SVG preferred)
-- **Style:** Warm, friendly, minimalist bird illustration
-- **Colors:** Mint (#7EC4A8) and complementary colors
+### 3. **SouvenirBird_clear_cut.PNG** ✅ ADDED
+- **Description:** Official SouvenirBird logo/illustration
+- **Format:** PNG with transparent background
 - **Usage:** Bird illustration section
+- **Note:** This is the actual branding asset for SouvenirBird
 
-### 4. **favicon.png**
-- **Description:** Website favicon
-- **Recommended sizes:** 
-  - `favicon-16x16.png`
-  - `favicon-32x32.png`
-  - `favicon-192x192.png` (for Android)
-  - `favicon-512x512.png` (for Android)
+### 4. **favicon.png** ✅ ADDED
+- **Description:** Website favicon created from SouvenirBird_mint.png
 - **Format:** PNG
-- **Usage:** Browser tab icon
+- **Usage:** Browser tab icon, PWA icon, Apple touch icon
+- **Source:** Generated from official SouvenirBird mint logo
+- **Note:** Single file used for all favicon purposes (simplicity)
 
 ### 5. **og-image.png**
 - **Description:** Open Graph image for social media sharing
