@@ -1,0 +1,30 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simple, friendly bird illustration in mint colors -->
+  
+  <!-- Body -->
+  <ellipse cx="400" cy="350" rx="120" ry="140" fill="#7EC4A8"/>
+  
+  <!-- Head -->
+  <circle cx="400" cy="220" r="80" fill="#7EC4A8"/>
+  
+  <!-- Wing -->
+  <ellipse cx="340" cy="360" rx="60" ry="90" fill="#B8E6D5" transform="rotate(-20 340 360)"/>
+  
+  <!-- Beak -->
+  <path d="M 400 220 L 460 230 L 400 240 Z" fill="#F4A460"/>
+  
+  <!-- Eye -->
+  <circle cx="420" cy="210" r="12" fill="#2C3E50"/>
+  <circle cx="424" cy="206" r="5" fill="#FFFFFF"/>
+  
+  <!-- Feet -->
+  <path d="M 380 470 L 375 490 M 380 470 L 385 490 M 380 470 L 380 490" stroke="#F4A460" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 420 470 L 415 490 M 420 470 L 425 490 M 420 470 L 420 490" stroke="#F4A460" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Tail feathers -->
+  <ellipse cx="340" cy="440" rx="40" ry="60" fill="#B8E6D5" transform="rotate(-30 340 440)"/>
+  <ellipse cx="320" cy="420" rx="35" ry="50" fill="#B8E6D5" transform="rotate(-40 320 420)"/>
+  
+  <!-- Text below -->
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="32" fill="#7EC4A8" text-anchor="middle" font-weight="300">SouvenirBird</text>
+</svg>
