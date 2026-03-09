@@ -17,6 +17,7 @@
     --mint-primary: #7EC4A8;
     --mint-light: #B8E6D5;
     --mint-bg: #F5FDFB;
+    --mint-bg-darker: #E8F7F3;
     --gray-dark: #2C3E50;
     --gray-medium: #5A6C7D;
     --gray-light: #E8ECEF;
@@ -29,10 +30,10 @@
     /* Spacing */
     --space-xs: 0.5rem;
     --space-sm: 1rem;
-    --space-md: 2rem;
-    --space-lg: 4rem;
-    --space-xl: 6rem;
-    --space-xxl: 8rem;
+    --space-md: 1.5rem;
+    --space-lg: 2.5rem;
+    --space-xl: 3.5rem;
+    --space-xxl: 5rem;
     
     /* Container */
     --container-max: 1200px;
@@ -57,10 +58,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     font-weight: 500;
     letter-spacing: -0.02em;
-    margin-bottom: var(--space-md);
+    margin-bottom: var(--space-sm);
 }
 
 h2 {
@@ -86,17 +87,17 @@ p {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--mint-bg) 0%, var(--white) 100%);
-    padding: var(--space-xxl) 0;
-    min-height: 85vh;
+    background: linear-gradient(135deg, var(--mint-bg-darker) 0%, var(--mint-bg) 100%);
+    padding: var(--space-xl) 0;
+    min-height: 70vh;
     display: flex;
     align-items: center;
 }
 
 .hero-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--space-xl);
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: var(--space-lg);
     align-items: center;
 }
 
@@ -105,16 +106,16 @@ p {
 }
 
 .subtitle {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: var(--gray-medium);
     font-weight: 300;
-    line-height: 1.6;
-    margin-bottom: var(--space-lg);
-    max-width: 520px;
+    line-height: 1.7;
+    margin-bottom: var(--space-md);
+    max-width: 580px;
 }
 
 .cta-primary {
-    margin-top: var(--space-lg);
+    margin-top: var(--space-md);
 }
 
 .google-play-button {
@@ -140,7 +141,7 @@ p {
 }
 
 .app-preview {
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
     filter: drop-shadow(0 20px 60px rgba(126, 196, 168, 0.15));
     border-radius: 20px;
@@ -148,7 +149,7 @@ p {
 
 /* Description Section */
 .description {
-    padding: var(--space-xl) 0;
+    padding: var(--space-lg) 0;
     background-color: var(--white);
 }
 
@@ -167,20 +168,20 @@ p {
 
 /* Features Section */
 .features {
-    padding: var(--space-xxl) 0;
+    padding: var(--space-xl) 0;
     background-color: var(--mint-bg);
 }
 
 .features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: var(--space-lg);
-    margin-top: var(--space-lg);
+    gap: var(--space-md);
+    margin-top: var(--space-md);
 }
 
 .feature {
     background: var(--white);
-    padding: var(--space-lg);
+    padding: var(--space-md) var(--space-lg);
     border-radius: 16px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -192,7 +193,7 @@ p {
 }
 
 .feature-icon {
-    margin-bottom: var(--space-md);
+    margin-bottom: var(--space-sm);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,7 +214,7 @@ p {
 
 /* Bird Illustration Section */
 .bird-section {
-    padding: var(--space-xl) 0 var(--space-xxl) 0;
+    padding: var(--space-md) 0 var(--space-lg) 0;
     background-color: var(--white);
 }
 
@@ -221,20 +222,20 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: var(--space-lg) 0;
+    padding: 0;
 }
 
 .bird-img {
-    max-width: 400px;
+    max-width: 280px;
     width: 100%;
     height: auto;
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 /* Footer */
 .footer {
     background-color: var(--white);
-    padding: var(--space-xl) 0 var(--space-lg) 0;
+    padding: var(--space-lg) 0 var(--space-md) 0;
     text-align: center;
     border-top: 1px solid var(--gray-light);
 }
@@ -242,13 +243,13 @@ p {
 .footer-tagline {
     font-size: 1.1rem;
     color: var(--mint-primary);
-    margin-bottom: var(--space-md);
+    margin-bottom: var(--space-sm);
     font-style: italic;
     font-weight: 300;
 }
 
 .footer-links {
-    margin-bottom: var(--space-md);
+    margin-bottom: var(--space-sm);
 }
 
 .footer-links a {
@@ -297,8 +298,8 @@ p {
 /* Responsive Design */
 @media (max-width: 968px) {
     :root {
-        --space-xl: 4rem;
-        --space-xxl: 6rem;
+        --space-xl: 2.5rem;
+        --space-xxl: 3.5rem;
     }
     
     h1 {
@@ -331,9 +332,9 @@ p {
 
 @media (max-width: 640px) {
     :root {
-        --space-lg: 3rem;
-        --space-xl: 3rem;
-        --space-xxl: 4rem;
+        --space-lg: 2rem;
+        --space-xl: 2rem;
+        --space-xxl: 2.5rem;
     }
     
     body {
@@ -353,7 +354,7 @@ p {
     }
     
     .hero {
-        padding: var(--space-lg) 0;
+        padding: var(--space-md) 0;
         min-height: auto;
     }
     
@@ -370,7 +371,7 @@ p {
     }
     
     .bird-img {
-        max-width: 300px;
+        max-width: 220px;
     }
 }
 
